@@ -163,7 +163,7 @@
 	  }
 	}
 
-
+	let interval;
 
 	onMounted(() => {
 	  // This code waits for the Google reCAPTCHA library to load, then renders the reCAPTCHA widget using onMounted hook. 
@@ -176,6 +176,8 @@
 	      clearInterval(interval);
 	    }
 	  }, 100);
+
+	});
 
 	  onBeforeUnmount(() => {
 	    clearInterval(interval);
