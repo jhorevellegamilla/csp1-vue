@@ -1,0 +1,65 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+	background-color: #97B3AE !important;
+}
+
+.navbar .nav-link {
+  color: black !important;
+}
+
+#landing {
+	background-color: #DD2E0D3;
+}
+
+.landing-img {
+	height: 100%;
+	max-height: 350px;
+	max-width: 350px;
+	object-fit: cover;
+}
+
+#myprojects {
+	background-color: #F0DDD6;	
+}
+
+#tools {
+  background-color: #F2C3B9;
+  padding: 3rem 1rem;
+}
+
+#tools h1 {
+  margin-bottom: 20px;
+  margin-top: 20px; 
+}
+
+#contacts h1 {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+
+#contacts {
+	background-color: #FFE0E9;
+}
+
+#contacts-bg {
+  background-color: #D6CBBF;
+  color: white;
+  width: 100%;
+}
+
+#footer {
+  background-color: #97B3AE;
+  color: black !important;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-img {
+  max-height: 400px;
+  object-fit: contain;
+}
